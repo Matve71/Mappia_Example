@@ -182,7 +182,7 @@
 				<Title>linee_veneto</Title>
 				<Abstract>GH:linee_veneto ABSTRACT</Abstract>
 				<KeywordList>
-					<Keyword>group:shp::://github.com/Matve71/Mappia_Example/releases/download/Map_Download/linee_veneto.zip:notListing::maxZoom:7</Keyword>
+					<Keyword>group:shp::://github.com/Matve71/Mappia_Example/releases/download/Map_Download/linee_veneto.zip:notListing::maxZoom:11</Keyword>
 				</KeywordList>
 				<SRS>EPSG:4326</SRS>
 				<LatLonBoundingBox minx="10.63299230039888" miny="44.84920375891255" maxx="13.04461073824656" maxy="46.48476819880306"></LatLonBoundingBox>
