@@ -116,7 +116,7 @@
 				<Width>256</Width>
 				<Height>256</Height>
 				<Format>image/png</Format>
-				<Layers>GH:linee_veneto</Layers>
+				<Layers>GH:google_hybrid</Layers>
 				<Styles></Styles>
 			</TileSet>
 			<TileSet>
@@ -126,7 +126,7 @@
 				<Width>256</Width>
 				<Height>256</Height>
 				<Format>image/png</Format>
-				<Layers>GH:linee_veneto</Layers>
+				<Layers>GH:google_hybrid</Layers>
 				<Styles></Styles>
 			</TileSet>
 			<TileSet>
@@ -136,7 +136,7 @@
 				<Width>256</Width>
 				<Height>256</Height>
 				<Format>image/png</Format>
-				<Layers>GH:google_hybrid</Layers>
+				<Layers>GH:linee_veneto</Layers>
 				<Styles></Styles>
 			</TileSet>
 			<TileSet>
@@ -146,7 +146,7 @@
 				<Width>256</Width>
 				<Height>256</Height>
 				<Format>image/png</Format>
-				<Layers>GH:google_hybrid</Layers>
+				<Layers>GH:linee_veneto</Layers>
 				<Styles></Styles>
 			</TileSet>
 			<CustomLayer>
@@ -157,26 +157,6 @@
 		</VendorSpecificCapabilities>
 		<UserDefinedSymbolization SupportSLD="1" UserLayer="1" UserStyle="1" RemoteWFS="1"></UserDefinedSymbolization>
 		<Layer>
-			<Layer queryable="1" opaque="0">
-				<Name>GH:linee_veneto</Name>
-				<Title>linee_veneto</Title>
-				<Abstract>GH:linee_veneto ABSTRACT</Abstract>
-				<KeywordList>
-					<Keyword>group:shp::://github.com/Matve71/Mappia_Example/releases/download/Map_Download/linee_veneto.zip:notListing::maxZoom:3</Keyword>
-				</KeywordList>
-				<SRS>EPSG:4326</SRS>
-				<LatLonBoundingBox minx="10.63299230039888" miny="44.84920375891255" maxx="13.04461073824656" maxy="46.48476819880306"></LatLonBoundingBox>
-				<BoundingBox SRS="EPSG:4326" minx="1628946.6297773365" miny="4973743.999459423" maxx="1810795.4376814356" maxy="5149303.071015659"></BoundingBox>
-				<Style>
-					<Name>1</Name>
-					<Title>1</Title>
-					<Abstract></Abstract>
-					<LegendURL width="20" height="20">
-						<Format>image/png</Format>
-						<OnlineResource xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple" xlink:href="https://maps.csr.ufmg.br:443/geoserver/wms?request=GetLegendGraphic&amp;format=image%2Fpng&amp;width=20&amp;height=20&amp;layer=linee_veneto"></OnlineResource>
-					</LegendURL>
-				</Style>
-			</Layer>
 			<Layer queryable="1" opaque="0">
 				<Name>GH:google_hybrid</Name>
 				<Title>google_hybrid</Title>
@@ -194,6 +174,26 @@
 					<LegendURL width="20" height="20">
 						<Format>image/png</Format>
 						<OnlineResource xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple" xlink:href="https://maps.csr.ufmg.br:443/geoserver/wms?request=GetLegendGraphic&amp;format=image%2Fpng&amp;width=20&amp;height=20&amp;layer=google_hybrid"></OnlineResource>
+					</LegendURL>
+				</Style>
+			</Layer>
+			<Layer queryable="1" opaque="0">
+				<Name>GH:linee_veneto</Name>
+				<Title>linee_veneto</Title>
+				<Abstract>GH:linee_veneto ABSTRACT</Abstract>
+				<KeywordList>
+					<Keyword>group:shp::://github.com/Matve71/Mappia_Example/releases/download/Map_Download/linee_veneto.zip:notListing::maxZoom:7</Keyword>
+				</KeywordList>
+				<SRS>EPSG:4326</SRS>
+				<LatLonBoundingBox minx="10.63299230039888" miny="44.84920375891255" maxx="13.04461073824656" maxy="46.48476819880306"></LatLonBoundingBox>
+				<BoundingBox SRS="EPSG:4326" minx="1628946.6297773365" miny="4973743.999459423" maxx="1810795.4376814356" maxy="5149303.071015659"></BoundingBox>
+				<Style>
+					<Name>1</Name>
+					<Title>1</Title>
+					<Abstract></Abstract>
+					<LegendURL width="20" height="20">
+						<Format>image/png</Format>
+						<OnlineResource xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple" xlink:href="https://maps.csr.ufmg.br:443/geoserver/wms?request=GetLegendGraphic&amp;format=image%2Fpng&amp;width=20&amp;height=20&amp;layer=linee_veneto"></OnlineResource>
 					</LegendURL>
 				</Style>
 			</Layer>
